@@ -10,8 +10,13 @@ Follow the commands.
 
 1. Clone repository. Please make sure you do not make any changes to master
 ```
-$  git clone 
+$  https://github.com/coding-concepts/bank.git
 ```
+If you are using another account: 
+```
+$  https://<username>@github.com/coding-concepts/bank.git
+```
+
 2. Create your local copy. We need to make sure that git tracks outr changes.
 ```
 $  git checkout --track -b feature/<yourname>
