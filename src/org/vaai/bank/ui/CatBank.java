@@ -88,14 +88,14 @@ public class CatBank {
         regdata.setConfirmPasswd(confirmPassword.getText());
         regdata.setType(userType);
 
+
         //set data
         try {
             validator.validate(regdata);
             userService.saveUser(regdata);
 
             String s = UserServiceImpl.userStorage.toString();
-
-            JOptionPane.showMessageDialog(this.mainPanel, "USer Saved :"+s );
+            JOptionPane.showMessageDialog(this.mainPanel, "User Saved : " + s );
         } catch (Exception e) {
             e.printStackTrace();
             JOptionPane.showMessageDialog(mainPanel, e.getMessage());

@@ -54,7 +54,7 @@
           <gridbag weightx="0.0" weighty="0.0"/>
         </constraints>
         <properties>
-          <text value="FULL NAME"/>
+          <text value="Full Name"/>
         </properties>
       </component>
       <component id="bd151" class="javax.swing.JLabel">
